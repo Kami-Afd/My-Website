@@ -1,0 +1,376 @@
+/* made with Love by Kamran naveed Afridi */
+*
+{
+    scroll-behavior: smooth;
+    margin: 0%;
+    padding: 0%;
+    font-family: Figerona;
+    box-sizing: border-box;
+    text-decoration: none;
+
+    
+}
+
+body
+{
+    background-color: aliceblue;
+    height: 100vh;
+}
+
+                    /* background-image */
+
+.container
+{
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(./background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 95vh;
+    box-sizing: content-box;
+    object-fit: cover;
+    position:sticky;
+}
+
+                    /* Navigation Bar Styling */
+
+
+.navbar
+{
+    border: 1px solid lightgray;
+    padding: 1.5em;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    text-align: center;
+}
+
+#active
+{
+    background-color: black;
+    color: white;
+}
+
+.navbar a
+{
+    text-align: center;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    color: black;
+    font-weight: bold;
+    transition: a 1s ease-in-out;
+    margin: 0 1em;
+    border-radius: 0.3em;
+
+}
+
+
+
+.navbar a:hover
+{
+    background-color: black;
+    color: white;
+    /* border-radius: 1em; */
+
+}
+
+
+
+
+
+
+.main_heading
+{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    text-align: left;
+    color: white;
+    display: inline-block;
+    
+    text-align: left; 
+position: absolute;
+    top:65%;
+    left: 7%;
+}
+
+.main_heading h1
+{
+    font-size: 4rem;
+    position: sticky;
+
+}
+
+
+.main_heading p
+{
+    margin: 1em 0;
+    
+}
+
+.btn
+{
+    margin: 0.5em;
+}
+
+.btn a
+{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 0.7em 1.3em;
+    box-shadow: 0px 0px 5px 1px rgb(102, 219, 252);
+    text-align: center;
+
+    
+}
+
+
+
+
+
+
+
+                    /* Body Content Styling*/
+
+
+.box_wrapper
+{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    text-align: center;
+    position: relative;
+    top: 100%;
+    
+    /* border-radius: 10em; */
+    
+}
+
+
+.box_items
+{
+    
+    flex-direction: column;
+    background-color: white;
+    width: 400px;
+    height: 200px;
+    margin: 2rem;
+    box-shadow: 0px 0px 5px 1px rgb(102, 219, 252);
+    border-radius: 2em;
+}
+
+
+.box_img
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    border-top: 5px solid black;
+    width: 100%;
+    align-items: center;
+    border-radius: 2em;
+    object-fit: cover;
+    padding: 3em 2em;
+
+}
+
+
+.box_img h2 a
+{
+    text-align: center;
+    text-decoration: none;
+    padding: 0.5em 0.5em;
+    color: white;
+    font-weight: bold;
+    transition: a 1s ease-in-out;
+    margin: 0 1em;
+    background-color: black;
+    border-radius: 0.3em;
+}
+
+.box_img h2
+{
+    margin-bottom: 1em;
+}
+
+
+/* inserting images  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    /* Hamburger Menu Styling */
+
+
+
+#toggle
+{
+    display: none;
+}
+
+.toggle_area
+{
+    background-color: white;
+    padding: 1em;
+    display: flex;
+    justify-content: flex-end;
+    display: none;
+    box-shadow: 0px 0px 5px 1px rgb(102, 219, 252);
+
+    
+}
+
+.toggle_area label
+{
+    background-color: white;
+    box-shadow: 0px 0px 5px 1px rgb(102, 219, 252);
+    height: 2.5em;
+    width: 3em;
+    border-radius: 0.4em;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.toggle_area label span
+{
+    background-color: black;
+    height: 0.3em;
+    width: 60%;
+    margin: 0.2em 0;
+    border-radius: 0.5em;
+
+}
+
+
+                    /* Footer Styling */
+
+
+
+.footer_content
+{
+    position: relative;
+    text-align: center;
+    padding: 3em;
+    margin-top: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(0, 0, 0);
+    /* box-shadow: 0px 0px 5px 1px rgb(102, 219, 252); */
+    color: white;
+
+   
+}
+
+.max_width
+{
+    max-width: 1200px;
+    margin: 0 auto;
+    
+
+}
+
+.footer
+{
+    
+    color: white;
+
+
+}
+
+.links
+{
+    
+    padding-top: 1em;
+    padding: 0 5em;
+}
+
+.links a
+{
+    margin:0 0.5em;
+    border-bottom: 1px solid gray;
+    color: white;
+}
+
+.about
+{
+    margin: 0.5em 0em;
+
+}
+
+
+
+
+                    /* Responsive @Media Quires*/
+
+
+@media screen and (max-width: 700px)
+{
+
+
+    .navbar
+    {
+        flex-direction: column;
+        background-color: none;
+        display: none;
+        position: -webkit-sticky;
+    }
+    .navbar a
+    {
+        border-bottom: 1px solid rgb(221, 218, 218);
+        
+    }
+
+    #toggle:checked + .navbar
+    {
+        display: flex;
+    }
+
+    .toggle_area
+    {
+        display: flex;
+    }
+
+    .main_heading h1
+    {
+        font-size: 3rem;
+    }
+
+    
+    
+}
+    
+
+
+
+
+
+
+
+
+
+
